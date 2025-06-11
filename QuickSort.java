@@ -12,7 +12,7 @@ public class QuickSort {
     }
 
     static int partition(int[] arr, int low, int high) {
-        int pivot = arr[high];  // Choose last element as pivot
+        int pivot = arr[high];  
         int i = low - 1;
 
         for (int j = low; j < high; j++) {
@@ -25,7 +25,7 @@ public class QuickSort {
             }
         }
 
-        // Place pivot at correct position
+      
         int temp = arr[i + 1];
         arr[i + 1] = arr[high];
         arr[high] = temp;

@@ -18,7 +18,7 @@ public class QuickSort {
         for (int j = low; j < high; j++) {
             if (arr[j] < pivot) {
                 i++;
-                // Swap arr[i] and arr[j]
+               
                 int temp = arr[i];
                 arr[i] = arr[j];
                 arr[j] = temp;
